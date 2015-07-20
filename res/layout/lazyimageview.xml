@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+
+    <com.example.myimageview.CircleImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        />
+
+    <com.example.myimageview.CircleImageView
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/myprograssbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+</FrameLayout>
